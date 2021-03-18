@@ -1,0 +1,27 @@
+Installasi Composer
+Mengunduh mpdf dengan composer
+
+Installasi Composer
+Installasi composer, silakan baca blog Java Web Media di http://javawebmedia.com/blog/cara-install-composer-di-windows/
+
+Buka Situs MPDF
+https://mpdf.github.io/
+
+Buka cara installasi 
+https://mpdf.github.io/installation-setup/installation-v7-x.html
+
+
+Mengunduh MPDF dengan composer
+Pastikan Composer sudah terinstall
+Buat folder mpdf di folder E-Commerce (di xampp/htdocs/E-Commerce)
+Buka CMD (Command Line)=  Buka sebagai Administrator
+Ketik composer
+Xampp saya diinstall di directory C, jika Anda di C: maka gunakan C
+Lalu ketik directory, misal D: (karena XAMPP saya di D)
+Lalu ketik cd xampp/htdocs/E-Commerce/mpdf
+Ketik perintah composer require mpdf/mpdf
+Tunggu sampai download selesai
+
+Memindahkan folder vendor 
+Pindahkan folder vendor ke folder mpdf (apabila folder vendornya terdapat diluar folder mpdf
+jika sdh ada difolder mpdf maka tidak perlu dipindahkan lagi)
